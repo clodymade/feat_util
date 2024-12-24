@@ -57,7 +57,7 @@ To include `feat_util` via **JitPack**, follow these steps:
 
     ```gradle
     dependencies {
-        implementation 'com.github.clodymade:feat_util:1.0.0'
+        implementation 'com.github.clodymade:feat_util:1.0.1'
     }
     ```
 
