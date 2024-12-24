@@ -1,6 +1,9 @@
 jdk:
   - openjdk17
 
+env:
+  JAVA_HOME: /home/jitpack/tools/jdk17
+
 build:
   script:
     - ./gradlew clean assemble
