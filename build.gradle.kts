@@ -58,11 +58,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 }
 
-repositories {
-    google()             // Google's Maven repository
-    mavenCentral()       // Maven Central repository
-}
-
 // Add Maven publishing configuration for JitPack compatibility
 publishing {
     publications {
@@ -74,7 +69,7 @@ publishing {
             // Define Maven artifact metadata
             groupId = "com.github.clodymade" // GitHub username as group ID
             artifactId = "feat_util"         // Module name as artifact ID
-            version = "1.0.0"                // Version matching the Git tag
+            version = "1.0.1"                // Version matching the Git tag
 
             // Configure POM metadata
             pom {
