@@ -158,7 +158,7 @@ enum class HiPermissionType {
  * Object containing request codes for different permission requests.
  * These codes are used when requesting permissions in the app.
  */
-object PermissionReqCodes {
+object HiPermissionReqCodes {
     const val PUSH = 44440          // Push notification permission
     const val CAMERA = 44441        // Camera permission
     const val STORAGE = 44442       // Storage permission
